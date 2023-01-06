@@ -17,12 +17,9 @@
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
-
 -- ----------------------------
 -- Table structure for ad
 -- ----------------------------
-CREATE DATABASE IF NOT EXISTS smartphone_market;
-USE smartphone_market;
 DROP TABLE IF EXISTS `ad`;
 CREATE TABLE `ad`  (
   `id` int UNSIGNED NOT NULL AUTO_INCREMENT,

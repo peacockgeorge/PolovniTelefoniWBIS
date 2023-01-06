@@ -16,8 +16,7 @@ class AuthenticationController extends Controller {
 
     //posalji korisnika na view sa 403 access denied porukom
     public function accessDenied() {
-        // return $this->router->view("accessDenied", "error");
-        return $this->router->view("Authentication/login", "error");
+        return $this->router->view("accessDenied", "error");
     }
 
     //posalji korisnika na view sa 404 not found porukom
